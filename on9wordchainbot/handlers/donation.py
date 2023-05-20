@@ -1,4 +1,4 @@
-import asyncio
+"""import asyncio
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
 from uuid import uuid4
@@ -114,13 +114,13 @@ async def successful_payment_handler(message: types.Message) -> None:
     dt = datetime.now().replace(microsecond=0)
     async with pool.acquire() as conn:
         await conn.execute(
-            """\
+            
             INSERT INTO donation (
                 donation_id, user_id, amount, donate_time,
                 telegram_payment_charge_id, provider_payment_charge_id
             )
             VALUES
-                ($1, $2, $3::NUMERIC, $4, $5, $6);""",
+                ($1, $2, $3::NUMERIC, $4, $5, $6);,
             donation_id,
             message.from_user.id,
             str(amt),
@@ -147,4 +147,4 @@ async def successful_payment_handler(message: types.Message) -> None:
             ),
             parse_mode=types.ParseMode.HTML
         )
-    )
+    )"""
