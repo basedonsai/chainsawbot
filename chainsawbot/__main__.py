@@ -6,9 +6,9 @@ from decimal import ROUND_HALF_UP, getcontext
 from aiogram import executor
 from periodic import Periodic
 
-from on9wordchainbot import dp, loop, pool, session
-from on9wordchainbot.utils import send_admin_group
-from on9wordchainbot.words import Words
+from chainsawbot import dp, loop, pool, session
+from chainsawbot.utils import send_admin_group
+from chainsawbot.words import Words
 
 random.seed(time.time())
 getcontext().rounding = ROUND_HALF_UP
