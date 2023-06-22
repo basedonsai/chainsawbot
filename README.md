@@ -1,4 +1,4 @@
-# On9 Word Chain Bot
+# ChainSaw Bot
 ![On9 Word Chain Bot logo](https://i.imgur.com/B4hjMC5.jpg)
 
 (Epic icon by [@AdriTheDreamer](https://github.com/AdriTheDreamer)) 
