@@ -3,7 +3,7 @@
 
 (Epic icon by [@AdriTheDreamer](https://github.com/AdriTheDreamer)) 
 
-On9 Word Chain Bot hosts games of word chain in Telegram groups.
+chainsawbot hosts games of word chain in Telegram groups.
 
 ### Telegram Links
 - [On9 Word Chain Bot](https://t.me/on9wordchainbot) (Live Version)
@@ -23,7 +23,7 @@ Python 3.7+ \
 PostgreSQL 11+ \
 2 Telegram bots
 
-> It is highly recommended that you turn off privacy mode for On9 Word Chain Bot via @BotFather,
+> It is highly recommended that you turn off privacy mode for Word Chain Bot via @BotFather,
 > which is on by default. Otherwise, leaving privacy mode on, the bot will only receive players'
 > answers when they reply to the bot.
 
